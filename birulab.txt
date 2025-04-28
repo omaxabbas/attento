@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário de Conteúdos | Maio a Dezembro 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .slide {
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, #5e23e3 0%, #2ecc71 100%);
+            color: white;
+            padding: 1.5rem;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 1rem;
+            background-color: #1b1a1e;
+            color: white;
+            font-size: 0.75rem;
+        }
+        
+        .section-title {
+            border-left: 4px solid #f5821f;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .bullet-point {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+        
+        .bullet-point::before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #97de0f;
+            border-radius: 50%;
+            margin-right: 0.75rem;
+            margin-top: 0.5rem;
+        }
+        
+        .month-tag {
+            background-color: #5e23e3;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .post-card {
+            border-left: 3px solid #f5821f;
+            padding: 0.75rem;
+            margin-bottom: 0.75rem;
+            background-color: #f8fafc;
+        }
+        
+        .post-date {
+            color: #5e23e3;
+            font-weight: 600;
+        }
+        
+        .post-type {
+            background-color: #1b1a1e;
+            color: white;
+            padding: 0.15rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.65rem;
+            display: inline-block;
+            margin-top: 0.25rem;
+        }
+        
+        .format-tag {
+            background-color: #2ecc71;
+            color: white;
+            padding: 0.15rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.65rem;
+            display: inline-block;
+            margin-right: 0.25rem;
+        }
+        
+        .table-header {
+            background-color: #5e23e3;
+            color: white;
+            font-weight: 600;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        
+        .table-row:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        
+        @media print {
+            body {
+                background: none;
+            }
+            .slide {
+                box-shadow: none;
+                margin: 0;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 print:p-0">
+    <!-- Slide 1: Cover -->
+    <div class="slide">
+        <div class="header">
+            <div class="flex items-center mb-8">
+                <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center mr-4">
+                    <span class="text-3xl font-bold" style="background: linear-gradient(90deg, #5e23e3 0%, #2ecc71 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">A</span>
+                </div>
+                <div>
+                    <h1 class="text-4xl font-bold">Calendário de Conteúdos</h1>
+                    <p class="text-xl">Maio a Dezembro 2025</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center justify-center h-96">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold mb-4">Planejamento Estratégico</h2>
+                    <p class="text-xl mb-8">Para Attento Gestão Condominial</p>
+                    <div class="w-32 h-1 mx-auto mb-8" style="background: linear-gradient(90deg, #5e23e3 0%, #2ecc71 100%);"></div>
+                    <p class="text-gray-600">Desenvolvido por Birulab.digital</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 1 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Introduction -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Introdução</h2>
+        </div>
+        
+        <div class="p-8">
+            <h3 class="section-title text-2xl font-bold">Objetivo do Calendário</h3>
+            
+            <div class="mb-6">
+                <div class="bullet-point">
+                    <div>
+                        <p class="font-semibold">Organização estratégica</p>
+                        <p class="text-sm text-gray-600">Planejamento mensal de publicações alinhadas com os objetivos da Attento</p>
+                    </div>
+                </div>
+                <div class="bullet-point">
+                    <div>
+                        <p class="font-semibold">Conexão com o público</p>
+                        <p class="text-sm text-gray-600">Conteúdos relevantes que engajam síndicos e condôminos</p>
+                    </div>
+                </div>
+                <div class="bullet-point">
+                    <div>
+                        <p class="font-semibold">Diversidade de formatos</p>
+                        <p class="text-sm text-gray-600">Mix de posts, reels, carrosséis e vídeos para diferentes objetivos</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="section-title text-2xl font-bold">Metodologia</h3>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <div class="w-6 h-6 rounded-full flex items-center justify-center mr-2" style="background-color: #5e23e3;">
+                            <i class="fas fa-calendar-alt text-white text-xs"></i>
+                        </div>
+                        <h4 class="font-semibold">Datas comemorativas</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Aproveitamento de feriados e datas relevantes para o segmento</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <div class="w-6 h-6 rounded-full flex items-center justify-center mr-2" style="background-color: #f5821f;">
+                            <i class="fas fa-lightbulb text-white text-xs"></i>
+                        </div>
+                        <h4 class="font-semibold">Temas estratégicos</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Conteúdos educativos sobre gestão condominial</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <div class="w-6 h-6 rounded-full flex items-center justify-center mr-2" style="background-color: #97de0f;">
+                            <i class="fas fa-users text-white text-xs"></i>
+                        </div>
+                        <h4 class="font-semibold">Humanização</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Mostrar o lado humano da Attento através da equipe</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <div class="w-6 h-6 rounded-full flex items-center justify-center mr-2" style="background-color: #1b1a1e;">
+                            <i class="fas fa-chart-line text-white text-xs"></i>
+                        </div>
+                        <h4 class="font-semibold">Métricas</h4>
+                    </div>
+                    <p class="text-sm text-gray-600">Acompanhamento de resultados para otimização contínua</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 2 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: May -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Maio 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Destaques do mês</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Dia do Trabalho: homenagem aos colaboradores</td>
+                            <td class="p-2">01/05 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Feed/arte especial</span></td>
+                            <td class="p-2">Feriado Nacional</td>
+                            <td class="p-2 text-gray-600">Valorizando o time Attento</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">Planejamento para obras e manutenções</td>
+                            <td class="p-2">02/05 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Feed</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Reforço ao planejamento antecipado</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">Como lidar com conflitos entre vizinhos</td>
+                            <td class="p-2">05/05 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Reels</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Tema comportamental e atual</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">A função do conselho consultivo no dia a dia</td>
+                            <td class="p-2">08/05 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Feed</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Educativo</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Dia das Mães: homenagem com a equipe</td>
+                            <td class="p-2">11/05 (dom)</td>
+                            <td class="p-2"><span class="format-tag">Foto + texto leve</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Mostrando as mães da Attento</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Revisão de contratos: quando e como fazer</td>
+                            <td class="p-2">13/05 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Importante para evitar prejuízos</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Pastas digitais: organização inteligente</td>
+                            <td class="p-2">16/05 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Feed</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Dica de funcionalidade digital</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">A Attento é sua aliada: conte com a gente</td>
+                            <td class="p-2">27/05 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Feed institucional</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Reforço de marca</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 3 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: June -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Junho 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Destaque: Festa Junina</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Início da campanha para Festa Junina Attento</td>
+                            <td class="p-2">02/06 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Feed com teaser</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Chamada para evento 28/06</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">Campanha preventiva: cuidado com acidentes nas festas</td>
+                            <td class="p-2">05/06 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Feed educativo</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Orientação condominial</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">Bastidores da decoração junina</td>
+                            <td class="p-2">09/06 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Reels divertido</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Engajamento leve e institucional</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">Dia do Porteiro</td>
+                            <td class="p-2">09/06 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Arte + homenagem</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Valorização profissional</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Checklist para síndicos: como preparar seu evento no cond.</td>
+                            <td class="p-2">13/06 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Material de apoio aos clientes</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Corpus Christi</td>
+                            <td class="p-2">19/06 (Qui)</td>
+                            <td class="p-2"><span class="format-tag">-</span></td>
+                            <td class="p-2">Feriado Municipal</td>
+                            <td class="p-2 text-gray-600">Data Religiosa</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Festa Junina Attento: lembrete oficial</td>
+                            <td class="p-2">26/06 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Arte com serviços</span></td>
+                            <td class="p-2">Evento Attento</td>
+                            <td class="p-2 text-gray-600">Convite oficial ao público</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">Cobertura da Festa Junina (reels de bastidores)</td>
+                            <td class="p-2">28/06 (sáb)</td>
+                            <td class="p-2"><span class="format-tag">Reels/Vídeo evento</span></td>
+                            <td class="p-2">Evento Attento</td>
+                            <td class="p-2 text-gray-600">Registro e engajamento pós-evento</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 4 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: July -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Julho 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Tema: Férias</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Preparativos finais para Festa Julina (caso data alternativa)</td>
+                            <td class="p-2">01/07 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Feed lembrete</span></td>
+                            <td class="p-2">Evento Attento (26/07)</td>
+                            <td class="p-2 text-gray-600">Alternativa à data de junho</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">Manutenção de férias: orientações para síndicos</td>
+                            <td class="p-2">03/07 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Dicas úteis para julho</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">Bastidores da produção da festa</td>
+                            <td class="p-2">07/07 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Reels divertido</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Engajamento com equipe</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">Como evitar inadimplência nas férias</td>
+                            <td class="p-2">10/07 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Reels ou feed</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Dica de gestão</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Convivência em condomínios nas férias escolares</td>
+                            <td class="p-2">15/07 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Tema sazonal</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Festa Julina Attento – convite oficial</td>
+                            <td class="p-2">24/07 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Arte/convite</span></td>
+                            <td class="p-2">Evento Attento</td>
+                            <td class="p-2 text-gray-600">Evento no dia 26/07</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Cobertura da Festa Julina</td>
+                            <td class="p-2">26/07 (sáb)</td>
+                            <td class="p-2"><span class="format-tag">Reels/vídeo</span></td>
+                            <td class="p-2">Evento Attento</td>
+                            <td class="p-2 text-gray-600">Pós-evento</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">Vídeo institucional leve com a equipe</td>
+                            <td class="p-2">29/07 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Reels</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Humanização da marca</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 5 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: August -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Agosto 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Destaque: Dia dos Pais</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Use nosso aplicativo</td>
+                            <td class="p-2">05/08</td>
+                            <td class="p-2"><span class="format-tag">Feed institucional</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Institucional</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">Dia dos Pais – Equipe Attento e afeto</td>
+                            <td class="p-2">11/08 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Reels com depoimentos</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Post especial com colabores</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">A importância de se organizar para o segundo semestre</td>
+                            <td class="p-2">13/08 (qua)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Reflexão e planejamento</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">Meme divertido: "Trend com a equipe..."</td>
+                            <td class="p-2">15/08 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Reels/meme</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Humor</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Meme divertido: "Churrasqueira reservada no domingo..."</td>
+                            <td class="p-2">18/08 (seg)</td>
+                            <td class="p-2"><span class="format-tag">Feed</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Humor leve, identificação dos moradores</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Conscientização sobre regras de uso das áreas comuns</td>
+                            <td class="p-2">21/08 (qui)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel educativo</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Ligado aos memes anteriores</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Dia do Corretor de Imóveis – valorização da parceria</td>
+                            <td class="p-2">27/08 (qua)</td>
+                            <td class="p-2"><span class="format-tag">Feed institucional</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Parceria com o setor imobiliário</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">Bastidores de gravação/produção do mês com equipe</td>
+                            <td class="p-2">29/08 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Reels divertido</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Humanização da marca</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 6 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: September -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Setembro 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Campanha: Setembro Amarelo</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Setembro Amarelo – abertura da campanha</td>
+                            <td class="p-2">02/09 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Reels/arte</span></td>
+                            <td class="p-2">Campanha Nacional</td>
+                            <td class="p-2 text-gray-600">Prevenção ao suicídio</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">Convivência e empatia nos condomínios</td>
+                            <td class="p-2">05/09 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Relacionado ao Setembro Amarelo</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">Independência do Brasil</td>
+                            <td class="p-2">07/09 (dom)</td>
+                            <td class="p-2"><span class="format-tag">Arte institucional</span></td>
+                            <td class="p-2">Feriado Nacional</td>
+                            <td class="p-2 text-gray-600">Comemorativo</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">Como acolher moradores em situações delicadas</td>
+                            <td class="p-2">09/09 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Reels educativo</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Ações preventivas e empatia</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Prestação de contas do 2º trimestre (vídeo com Kerly)</td>
+                            <td class="p-2">13/09 (sáb)</td>
+                            <td class="p-2"><span class="format-tag">Reels</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Transparência na gestão</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Dia do Síndico está chegando! Primeira chamada</td>
+                            <td class="p-2">16/09 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Feed com teaser</span></td>
+                            <td class="p-2">Evento Attento</td>
+                            <td class="p-2 text-gray-600">Preparação para novembro</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Conscientização: cuidar da saúde mental é responsabilidade de todos</td>
+                            <td class="p-2">23/09 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">Setembro Amarelo</td>
+                            <td class="p-2 text-gray-600">Post reflexivo</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">Bastidores + bastidores de lives e produção</td>
+                            <td class="p-2">27/09 (sáb)</td>
+                            <td class="p-2"><span class="format-tag">Reels institucional</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Mostrar o time em ação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 7 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: October -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Outubro 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center mb-4">
+                <span class="month-tag">8 posts</span>
+                <span class="ml-4 text-sm text-gray-500">Campanha: Outubro Rosa</span>
+            </div>
+            
+            <div class="overflow-y-auto" style="max-height: 550px;">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr>
+                            <th class="table-header">Nº</th>
+                            <th class="table-header">Tema</th>
+                            <th class="table-header">Data Sugerida</th>
+                            <th class="table-header">Formato</th>
+                            <th class="table-header">Tipo de Data</th>
+                            <th class="table-header">Observação/Post Extra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="p-2">1</td>
+                            <td class="p-2 font-medium">Outubro Rosa – abertura da campanha</td>
+                            <td class="p-2">01/10 (qua)</td>
+                            <td class="p-2"><span class="format-tag">Arte + Reels</span></td>
+                            <td class="p-2">Campanha Nacional</td>
+                            <td class="p-2 text-gray-600">Consciência sobre o câncer de mama</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">2</td>
+                            <td class="p-2 font-medium">A saúde da umher começa com a informação</td>
+                            <td class="p-2">04/10 (sáb)</td>
+                            <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                            <td class="p-2">Outubro Rosa</td>
+                            <td class="p-2 text-gray-600">Educativo e leve</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">3</td>
+                            <td class="p-2 font-medium">Dia das Crianças – uso seguro das áreas comuns</td>
+                            <td class="p-2">10/10 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Feed com dicas</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Segurança e lazer no condomínio</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">4</td>
+                            <td class="p-2 font-medium">Dia das Crianças – celebração na Attento</td>
+                            <td class="p-2">12/10 (dom)</td>
+                            <td class="p-2"><span class="format-tag">Reels institucional</span></td>
+                            <td class="p-2">Data Comemorativa</td>
+                            <td class="p-2 text-gray-600">Conteúdo leve com equipe</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">5</td>
+                            <td class="p-2 font-medium">Outubro Rosa – bastidores da ação com equipe</td>
+                            <td class="p-2">14/10 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Reels</span></td>
+                            <td class="p-2">Outubro Rosa</td>
+                            <td class="p-2 text-gray-600">Mostrando engajamento interno</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">6</td>
+                            <td class="p-2 font-medium">Prestação de contas do 3º trimestre (vídeo com Kerly)</td>
+                            <td class="p-2">17/10 (sex)</td>
+                            <td class="p-2"><span class="format-tag">Reels/Vídeo</span></td>
+                            <td class="p-2">-</td>
+                            <td class="p-2 text-gray-600">Transparência</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">7</td>
+                            <td class="p-2 font-medium">Outubro Rosa – lembrete do Dia D (ações locais)</td>
+                            <td class="p-2">19/10 (dom)</td>
+                            <td class="p-2"><span class="format-tag">Arte/Comunicado</span></td>
+                            <td class="p-2">Evento Municipal</td>
+                            <td class="p-2 text-gray-600">Divulgar unidades de saúde</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="p-2">8</td>
+                            <td class="p-2 font-medium">Outubro Rosa – encerramento da campanha</td>
+                            <td class="p-2">28/10 (ter)</td>
+                            <td class="p-2"><span class="format-tag">Reels + foto equipe</span></td>
+                            <td class="p-2">Outubro Rosa</td>
+                            <td class="p-2 text-gray-600">Encerramento simbólico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 8 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: November/December -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Novembro/Dezembro 2025</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <div class="flex items-center mb-2">
+                        <span class="month-tag">8 posts</span>
+                        <span class="ml-2 text-sm text-gray-500">Novembro</span>
+                    </div>
+                    
+                    <div class="overflow-y-auto" style="max-height: 500px;">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr>
+                                    <th class="table-header">Nº</th>
+                                    <th class="table-header">Tema</th>
+                                    <th class="table-header">Data</th>
+                                    <th class="table-header">Formato</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row">
+                                    <td class="p-2">1</td>
+                                    <td class="p-2 font-medium">Campanha Natal Solidário – pré-lançamento</td>
+                                    <td class="p-2">01/11 (sáb)</td>
+                                    <td class="p-2"><span class="format-tag">Feed com teaser</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">2</td>
+                                    <td class="p-2 font-medium">Anúncio oficial da Campanha Natal Solidário</td>
+                                    <td class="p-2">10/11 (seg)</td>
+                                    <td class="p-2"><span class="format-tag">Arte + Reels</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">3</td>
+                                    <td class="p-2 font-medium">Reforço semanal do Natal Solidário – como doar</td>
+                                    <td class="p-2">17/11 (seg)</td>
+                                    <td class="p-2"><span class="format-tag">Carrossel informativo</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">4</td>
+                                    <td class="p-2 font-medium">Dia do Síndico – chamada para evento</td>
+                                    <td class="p-2">01/11 (sáb)</td>
+                                    <td class="p-2"><span class="format-tag">Feed institucional</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">5</td>
+                                    <td class="p-2 font-medium">Semana do Evento – divulgação de patrocinadores</td>
+                                    <td class="p-2">Toda semana</td>
+                                    <td class="p-2"><span class="format-tag">Feed individual</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">6</td>
+                                    <td class="p-2 font-medium">Evento Dia do Síndico – registro e agradecimento</td>
+                                    <td class="p-2">29/11 (sáb)</td>
+                                    <td class="p-2"><span class="format-tag">Reels institucional</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">7</td>
+                                    <td class="p-2 font-medium">Natal Solidário – atualização da campanha (quinzenal)</td>
+                                    <td class="p-2">24/11 (seg)</td>
+                                    <td class="p-2"><span class="format-tag">Feed ou Reels</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">8</td>
+                                    <td class="p-2 font-medium">Bastidores de novembro – clima de gratidão</td>
+                                    <td class="p-2">28/11 (sex)</td>
+                                    <td class="p-2"><span class="format-tag">Reels institucional</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="flex items-center mb-2">
+                        <span class="month-tag">8 posts</span>
+                        <span class="ml-2 text-sm text-gray-500">Dezembro</span>
+                    </div>
+                    
+                    <div class="overflow-y-auto" style="max-height: 500px;">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr>
+                                    <th class="table-header">Nº</th>
+                                    <th class="table-header">Tema</th>
+                                    <th class="table-header">Data</th>
+                                    <th class="table-header">Formato</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row">
+                                    <td class="p-2">1</td>
+                                    <td class="p-2 font-medium">Natal Solidário – lembrete da data da entrega</td>
+                                    <td class="p-2">23/12 (ter)</td>
+                                    <td class="p-2"><span class="format-tag">Arte lembrete</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">2</td>
+                                    <td class="p-2 font-medium">Natal Solidário – resultado e agradecimento</td>
+                                    <td class="p-2">27/12 (sáb)</td>
+                                    <td class="p-2"><span class="format-tag">Reels com registros</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">3</td>
+                                    <td class="p-2 font-medium">Planejamento de férias coletivas</td>
+                                    <td class="p-2">01/12 (seg)</td>
+                                    <td class="p-2"><span class="format-tag">Feed com aviso</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">4</td>
+                                    <td class="p-2 font-medium">Checklist de fim de ano para síndicos</td>
+                                    <td class="p-2">06/12 (sáb)</td>
+                                    <td class="p-2"><span class="format-tag">Carrossel</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">5</td>
+                                    <td class="p-2 font-medium">Post de Natal institucional</td>
+                                    <td class="p-2">24/12 (qua)</td>
+                                    <td class="p-2"><span class="format-tag">Arte + texto</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">6</td>
+                                    <td class="p-2 font-medium">Post de Ano Novo institucional</td>
+                                    <td class="p-2">31/12 (qua)</td>
+                                    <td class="p-2"><span class="format-tag">Arte + texto</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">7</td>
+                                    <td class="p-2 font-medium">Encerramento da Campanha Fecha Ano</td>
+                                    <td class="p-2">10/12 (qua)</td>
+                                    <td class="p-2"><span class="format-tag">Feed ou Reels</span></td>
+                                </tr>
+                                <tr class="table-row">
+                                    <td class="p-2">8</td>
+                                    <td class="p-2 font-medium">Prestação de contas do ano – vídeo com Kerly</td>
+                                    <td class="p-2">15/12 (seg)</td>
+                                    <td class="p-2"><span class="format-tag">Vídeo institucional</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-6 bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-semibold mb-2">Eventos principais</h4>
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 rounded-full mr-2" style="background-color: #5e23e3;"></div>
+                        <span class="text-sm">Natal Solidário</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 rounded-full mr-2" style="background-color: #f5821f;"></div>
+                        <span class="text-sm">Dia do Síndico</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-4 h-4 rounded-full mr-2" style="background-color: #97de0f;"></div>
+                        <span class="text-sm">Encerramento do ano</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <span>Confidencial</span>
+                <span>Slide 9 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Closing -->
+    <div class="slide">
+        <div class="header">
+            <h2 class="text-2xl font-bold">Considerações Finais</h2>
+        </div>
+        
+        <div class="p-8">
+            <div class="flex items-center justify-center h-64 mb-6">
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold mb-4">Planejamento Estratégico</h3>
+                    <div class="w-32 h-1 mx-auto mb-6" style="background: linear-gradient(90deg, #5e23e3 0%, #2ecc71 100%);"></div>
+                    <p class="text-gray-600">Para Attento Gestão Condominial</p>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 p-6 rounded-lg">
+                <h4 class="font-semibold mb-4 text-center">Próximos passos</h4>
+                <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                        <div class="w-12 h-12 rounded-full mx-auto mb-2 flex items-center justify-center" style="background-color: #5e23e3;">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <p class="text-xs">Aprovação do calendário</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-full mx-auto mb-2 flex items-center justify-center" style="background-color: #f5821f;">
+                            <i class="fas fa-pen text-white"></i>
+                        </div>
+                        <p class="text-xs">Desenvolvimento de artes</p>
+                    </div>
+                    <div>
+                        <div class="w-12 h-12 rounded-full mx-auto mb-2 flex items-center justify-center" style="background-color: #97de0f;">
+                            <i class="fas fa-play text-white"></i>
+                        </div>
+                        <p class="text-xs">Execução do plano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-6 h-6 rounded-full flex items-center justify-center mr-2" style="background-color: #1b1a1e;">
+                        <span class="text-white text-xs">B</span>
+                    </div>
+                    <span>Birulab.digital</span>
+                </div>
+                <span>Slide 10 de 10</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Script para impressão (Ctrl+P)
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'p') {
+                e.preventDefault();
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>
